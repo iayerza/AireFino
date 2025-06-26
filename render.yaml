@@ -3,7 +3,7 @@ services:
     name: airefino-relay
     runtime: node
     repo: https://github.com/iayerza/AireFino
-    branch: main
+    branch: master
     buildCommand: npm install
     startCommand: node airefino-relay.js
     env: node
